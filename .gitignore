@@ -1,18 +1,37 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# OS-generated files
+.DS_Store
+Thumbs.db
 
-# Other files and folders
-.settings/
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Environment variables
+.env
+.env.*
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Dependency directories (if you add Node.js later)
+node_modules/
+
+# Build output
+dist/
+build/
+
+# IDE and editor folders
+.vscode/
+.idea/
+*.swp
+
+# Cache and temporary files
+*.tmp
+*.cache
+*.local
+
+# Coverage reports from testing tools
+coverage/
+
+# Optional – if you ever use frameworks later
+.next/
+.svelte-kit/
